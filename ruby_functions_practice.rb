@@ -54,3 +54,12 @@ def number_to_short_month_name(number)
     return "Sep"
   end
 end
+
+def cube(number)
+return number**number
+end
+
+
+def sphere(radius)
+  return 4/3.0 * Math::PI * radius ** 3
+end
