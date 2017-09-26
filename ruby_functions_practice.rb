@@ -23,6 +23,6 @@ def length_of_string(length)
   return length
 end
 
-def joined_string(string_1, string_2)
-  string = "#{string_1}#{string_2}"
+def join_string(string_1, string_2)
+  return string_1+string_2
 end
