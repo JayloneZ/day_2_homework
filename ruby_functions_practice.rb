@@ -63,3 +63,7 @@ end
 def sphere(radius)
   return 4/3.0 * Math::PI * radius ** 3
 end
+
+def fahrenheit(temp)
+  (temp - 32) * 5.0/9
+end
