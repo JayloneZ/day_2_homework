@@ -56,7 +56,7 @@ def number_to_short_month_name(number)
 end
 
 def cube(number)
-return number**number
+return number ** 3
 end
 
 
