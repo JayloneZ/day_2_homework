@@ -33,26 +33,20 @@ end
 
 def number_to_full_month_name(number)
   case number
-  when 1
-    return "January"
-  when 3
-    return "March"
-  when 9
-    return "September"
-  else
-    return
+    when 1
+      return "January"
+    when 3
+      return "March"
+    when 9
+      return "September"
+    else
+      return
   end
 end
 
 def number_to_short_month_name(number)
-  case number
-  when 1
-    return "Jan"
-  when 3
-    return "Mar"
-  when 9
-    return "Sep"
-  end
+  full_month_name = number_to_full_month_name(number)
+  return full_month_name.slice(0, 3)
 end
 
 def cube(number)
