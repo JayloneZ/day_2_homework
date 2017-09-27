@@ -24,11 +24,11 @@ def length_of_string(length)
 end
 
 def join_string(string_1, string_2)
-  return string_1+string_2
+  return string_1 + string_2
 end
 
 def add_string_as_number(num1, num2)
-  return num1.to_i+num2.to_i
+  return num1.to_i + num2.to_i
 end
 
 def number_to_full_month_name(number)
@@ -61,9 +61,9 @@ end
 
 
 def sphere(radius)
-  return 4/3.0 * Math::PI * radius ** 3
+  return 4 / 3.0 * Math::PI * radius ** 3
 end
 
 def fahrenheit(temp)
-  (temp - 32) * 5.0/9
+  (temp - 32) * 5.0 / 9
 end
