@@ -25,6 +25,7 @@ end
 
 def join_string(string_1, string_2)
   return string_1 + string_2
+  #ruby styleguide says not to seperate letters from numbers in variable names
 end
 
 def add_string_as_number(num1, num2)
