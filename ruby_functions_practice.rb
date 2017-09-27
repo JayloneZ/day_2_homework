@@ -18,9 +18,8 @@ def divide(number1, number2)
   return number1 / number2
 end
 
-def length_of_string(length)
-  length = "A string of length 21".length
-  return length
+def length_of_string(input_string)
+  return input_string.length
 end
 
 def join_string(string_1, string_2)
